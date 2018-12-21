@@ -27,5 +27,13 @@
 /public/assets
 .byebug_history
 
+.idea/
+
+
+shared/log/puma.stderr.log
+shared/log/puma.stdout.log
+shared/pids/puma.pid
+shared/pids/puma.state
+
 # Ignore master key for decrypting credentials and more.
 /config/master.key

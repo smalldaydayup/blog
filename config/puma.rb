@@ -7,7 +7,7 @@
 
 workers 1
 threads 1, 16
-daemonize true
+daemonize false
 rails_env = ENV['RAILS_ENV'] || "production"
 environment rails_env
 app_dir = File.expand_path("../..", __FILE__)
